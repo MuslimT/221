@@ -21,8 +21,8 @@ import java.util.List;
 
       @Transactional
       @Override
-      public void add(User user) {
-         userDao.add(user);
+      public void addUser(User user) {
+         userDao.addUser(user);
       }
 
       @Transactional(readOnly = true)
